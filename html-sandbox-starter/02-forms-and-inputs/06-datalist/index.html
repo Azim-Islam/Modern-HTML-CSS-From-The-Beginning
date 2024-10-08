@@ -7,5 +7,20 @@
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Datalist</h1>
+    <form action="action.phph">
+      <label for="programming-language">Programming Language Selector</label>
+      <input
+        list="languages"
+        name="programming-language"
+        id="programming-language"
+      />
+      <datalist id="languages">
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+        <option value="C#">C#</option>
+        <option value="RUST">RUST</option>
+        <option value="Golang">GoLang</option>
+      </datalist>
+    </form>
   </body>
 </html>
