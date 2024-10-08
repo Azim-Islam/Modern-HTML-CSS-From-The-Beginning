@@ -1,3 +1,89 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+body {
+  background-color: #ecf0f1;
+  text-align: center;
+}
+
+
+
+.container {
+  /* width: 50%; */
+  margin: auto;
+  width: 50%;
+
+}
+
+.vcard {
+  background-color: whitesmoke;
+  margin: 50px;
+  padding: 1rem;  
+  max-width: 30rem;
+  text-align: start;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 5px grey;
+  border-width: 0.01cap;
+  border-style: solid;
+  border-color: black;
+}
+
+.vcard button {
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+
+}
+
+
+.text-sm {
+  font-size: small;
+  font-weight: 400;  
+}
+
+
+.card-1 {
+  background: #fff url("./images/sporty.png") no-repeat center right;
+  background-size: 200px;
+}
+.card-2 {
+  background: #fff url("./images/casual.png") no-repeat center right;
+  background-size: 200px;
+}
+
+.card-3 {
+  background: #fff url("./images/formal.png") no-repeat center right;
+  background-size: 200px;
+}
+
+
+.card-1 h2{
+  color: #c0392b;
+}
+
+.card-1 button{
+  color: white;
+  background-color: #c0392b;
+}
+
+
+.card-2 h2{
+  color: #2980b9
+}
+.card-2 button{
+  color: white;
+  background-color: #2980b9;
+}
+
+
+.card-3 h2{
+  color: #79443B
+}
+
+.card-3 button{
+  color: white;
+  background-color: #3D2B1F;
+}
+
+
