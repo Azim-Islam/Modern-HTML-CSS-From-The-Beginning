@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    color: #30336b;
+}
+
+
+.container {
+    background-color: #30336b;
+    padding: 10%;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10%;
+    border-radius: 1rem;
+    gap: 3rem
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0.5rem;
+    box-shadow: 5px 10px 20px grey;
+    padding: 2%;
+}
+
+.main-text {
+    text-align: center;
+}
+
+.card ul {
+    align-self:flex-start;
+    padding-left: 10%;
+}
+
+.card li {
+    padding-top: 10px;
+}
+
+
+.card h2 {
+    font-size: medium;
+}
+
+.card-free h2{
+    height: 60px;
+    width: 100%;
+    background-color: #dff9fb;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card-pro h2{
+    height: 60px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(241,174,69);
+    background: linear-gradient(90deg, rgba(241,174,69,1) 0%, rgba(222,122,42,1) 100%, rgba(0,212,255,1) 100%); 
+    color: white;
+}
+
+.card-enterprise h2 {
+    height: 60px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%); 
+    color:white;
+}
+
+.price{
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.price sup{
+    font-size: medium;
+}
+
+.price span {
+    font-size: small;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #130f40;
+    text-align: center;
+    height: 50px;
+    width: 90%;
+    text-decoration: none;
+    color: #130f40
+}
+
+
+.btn-primary{
+    background-color: #30336b;
+    color: white;
+    border-color: transparent;
+}
