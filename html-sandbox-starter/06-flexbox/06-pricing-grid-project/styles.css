@@ -13,6 +13,7 @@ body {
 .container {
     background-color: #30336b;
     padding: 10%;
+    height: max-content;
 }
 
 .pricing {
@@ -21,7 +22,7 @@ body {
     background-color: white;
     padding: 10%;
     border-radius: 1rem;
-    gap: 3rem
+    gap: 3rem;
 }
 
 
@@ -103,6 +104,10 @@ body {
     font-size: small;
 }
 
+.price-info{
+    text-align: center;
+}
+
 
 .btn {
     display: flex;
@@ -125,4 +130,15 @@ body {
     background-color: #30336b;
     color: white;
     border-color: transparent;
+}
+
+
+@media (max-width: 1100px){
+    .pricing {
+        display: flex;
+        flex-direction: column;
+    }
+    .card * {
+        padding: 10px;
+    }
 }
