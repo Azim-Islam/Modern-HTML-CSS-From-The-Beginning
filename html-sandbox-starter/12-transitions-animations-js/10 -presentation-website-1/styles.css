@@ -35,7 +35,24 @@ html, body {
 
 #page-1{
   background-color: var(--page-1-color);
+  h1 {
+    transform: translateY(-1200px);
+    animation: pMoveIn var(--animate-speed) forwards ease-in;
+  }
+  p {
+    transform: translateX(-1800px);
+    animation: pMoveIn 2s forwards ease-in;
+    animation-delay: 0ms;
+
+  }
 }
+
+@keyframes pMoveIn {
+  to {
+    transform: translateX(0) translateY(0);
+  }
+}
+
 #page-2{
   background-color: var(--page-2-color);
 }
@@ -70,5 +87,18 @@ html, body {
   &:hover{
     filter: brightness(0.4);
     background-color: #130f40;
+  }
+}
+
+
+
+@media screen and (max-width: 768){
+  .page{
+    h1{
+      font-size:3.5rem
+    }
+    p1 {
+      font-size: 1.1rem;
+    }
   }
 }
