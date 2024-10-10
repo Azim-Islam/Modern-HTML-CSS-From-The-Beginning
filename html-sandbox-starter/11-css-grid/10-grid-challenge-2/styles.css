@@ -11,7 +11,21 @@ body {
 .container {
   display: grid;
   min-height: 100vh;
+  grid-template-rows: 1fr 1fr 6fr 1fr;
+  grid-template-columns: 2fr 1fr;
 }
+
+.container{
+  header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  footer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+
 
 header {
   background-color: #333;
@@ -46,3 +60,6 @@ footer {
   color: #fff;
   padding: 20px;
 }
+
+
+
