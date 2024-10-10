@@ -1,0 +1,52 @@
+*, 
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #fc5d66;
+    --secondary-color: #ffc05a;
+    --ligth-color: #f9fafb;
+    --dark-color: #272d35;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    scrollbar-color: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 1200px){
+
+}
+
+
+@media screen and (max-width: 992px){
+
+}
+
+@media screen and (max-width: 768px){
+    
+}
+
+
+@media screen and (max-width: 576px) {
+    
+}
