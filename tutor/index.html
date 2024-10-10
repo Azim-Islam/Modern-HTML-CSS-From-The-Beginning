@@ -20,24 +20,61 @@
     />
   </head>
   <body>
+    <div class="mobile-menu-toggle">
+      <i class="fas fa-bars fa-2x"></i>
+    </div>
     <nav class="navbar">
-      <div class="navbar-flex container"></div>
-      <img src="images/logo.svg" alt="Tutor Logo" />
-      <div class="main-menu-items">
-        <ul class="main-menu-list">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Chapters</a></li>
-          <li><a href="#">Summary</a></li>
-          <li><a href="#">Takeaways</a></li>
-          <li><a href="#">Author</a></li>
-          <li><a href="#">Contact</a></li>
-          <li>
-            <a href="https://facebook.com"
-              ><i class="fa-brands fa-facebook"></i
-            ></a>
-          </li>
-        </ul>
+      <div class="navbar-flex container">
+        <img src="images/logo.svg" alt="Tutor Logo" />
+        <div class="main-menu-items">
+          <ul class="main-menu-list">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Chapters">Chapters</a></li>
+            <li><a href="#Summary">Summary</a></li>
+            <li><a href="#Takeaways">Takeaways</a></li>
+            <li><a href="#Author">Author</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li>
+              <a href="https://facebook.com" target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://x.com" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+          <!-- Hamburger Button -->
+          <div class="mobile-menu-toggle">
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
+          <div class="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Chapters</a></li>
+              <li><a href="#">Summary</a></li>
+              <li><a href="#">Takeaways</a></li>
+              <li><a href="#">Author</a></li>
+              <li><a href="#">Contact</a></li>
+              <li>
+                <a href="https://facebook.com" target="_blank"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://x.com" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </nav>
+    <script src="script.js"></script>
   </body>
 </html>
