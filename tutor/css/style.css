@@ -652,7 +652,7 @@ img {
         grid-template-columns: 1fr;
     }
 
-    .details-flex, .details + .details .details-flex{
+    .details-flex, .details + .details .details-flex, .stats .stats-flex{
         flex-direction: column;
         gap: 2rem;
     }
