@@ -1,0 +1,26 @@
+*, 
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.green {
+    width: calc(100px * 6);
+    height: calc(60px * 6);
+    background: green;
+    position: absolute;
+    top: calc(50vh - 60px*6/2);
+    left: calc(50vw - 100px*6/2);
+
+}
+
+.red {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 100%;
+    position: relative;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+}
