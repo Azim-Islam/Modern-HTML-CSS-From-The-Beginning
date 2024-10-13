@@ -1,0 +1,64 @@
+*, 
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.clock {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: calc(50vh - 150px);
+    left: calc(50vw - 150px);
+    border-radius: 100%;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.hnm-hand{
+    position: relative;
+}
+
+.hour-hand {
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    height: 120px;
+    width: 2px;
+    background-color: blue;
+    animation-name: hour-rotate;
+    animation-duration: calc(12*60s/10);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.minute-hand {
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    height: 140px;
+    width: 2px;
+    background-color: red;
+    animation-name: hour-rotate;
+    animation-duration: calc(60s/10);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes hour-rotate {
+    0% {
+        transform-origin: 0% 0%;
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform-origin: 0% 0%;
+        transform: rotateZ(360deg);
+    }
+}
