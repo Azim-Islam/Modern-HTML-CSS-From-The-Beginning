@@ -16,8 +16,9 @@ h1{
 
 .container{
     position: relative  ;
-    width: 500px;
-    /* height: 300px; */
+    width: 70vw;
+    max-width: 720px;
+    height: 70vh;
     padding: 1rem;
     margin: 1rem auto;
 }
@@ -29,9 +30,11 @@ h1{
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-auto-rows: minmax(200px, auto);
+
     gap: 2rem;
-    height: 100vh;
+    height: 100px;
     width: 100%;
     /* margin: auto; */
 
