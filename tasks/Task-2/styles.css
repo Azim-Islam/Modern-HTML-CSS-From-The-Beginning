@@ -16,27 +16,33 @@ h1{
 
 .container{
     position: relative  ;
-    width: 70vw;
-    max-width: 720px;
-    height: 70vh;
-    padding: 1rem;
+    width: 80vw;
+    max-width: 992px;
+    height: 100vh;
+    padding: 2rem;
     margin: 1rem auto;
+}
+
+.photo-container{
+    width: 100%;
+    height: calc(100% - 100px)
+    /* padding-bottom: 40px; */
 }
 
 .img-container{
     position: relative;
 }
 
+
+
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* grid-template-rows: repeat(3, 1fr); */
-    grid-auto-rows: minmax(200px, auto);
-
+    grid-template-rows: repeat(3, minmax(50px, 100%));
     gap: 2rem;
-    height: 100px;
+    height: 100%;
     width: 100%;
-    /* margin: auto; */
 
     p{
         font-size: large;
@@ -55,7 +61,7 @@ h1{
 
 
 .photo-grid img {
-    display: block;
+    /* display: block; */
     height: 100%;
     width: 100%;
     object-fit:cover;
@@ -64,6 +70,7 @@ h1{
 img{
     filter: brightness(0.5)
 }
+
 
 .img-item-1 {
     grid-column-start: 1;
