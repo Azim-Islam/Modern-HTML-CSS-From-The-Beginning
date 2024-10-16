@@ -8,7 +8,7 @@
 
 h1{
     text-align: center;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     margin-bottom: 2rem;
 }
 
@@ -20,12 +20,12 @@ h1{
     max-width: 992px;
     height: 100vh;
     padding: 2rem;
-    margin: 1rem auto;
+    margin: 0rem auto;
 }
 
 .photo-container{
     width: 100%;
-    height: calc(100% - 100px)
+    height: calc(100% - 69px)
     /* padding-bottom: 40px; */
 }
 
@@ -38,7 +38,7 @@ h1{
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: repeat(3, 1fr); */
+    /* grid-template-rows: repeat(3, 100%); */
     grid-template-rows: repeat(3, minmax(50px, 100%));
     gap: 2rem;
     height: 100%;
