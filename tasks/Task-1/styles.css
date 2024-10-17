@@ -6,21 +6,27 @@
     box-sizing: border-box;
 }
 .green {
-    width: calc(100px * 6);
-    height: calc(60px * 6);
+    width: 50vw;
+    height: 50vh;
     background: green;
     position: absolute;
-    top: calc(50vh - 60px*6/2);
-    left: calc(50vw - 100px*6/2);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
 
 .red {
-    width: 200px;
-    height: 200px;
+    /* width: 25vh; */
+    /* height: minmax(25vw, 25vw); */
+    /* height: 25vh; */
+    width: 35%;
+    aspect-ratio: 1/1;
     background-color: red;
-    border-radius: 100%;
+    object-fit: cover;
+    border-radius: 50%;
     position: relative;
-    top: calc(50% - 100px);
-    left: calc(50% - 100px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
