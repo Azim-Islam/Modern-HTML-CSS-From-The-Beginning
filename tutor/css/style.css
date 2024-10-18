@@ -71,7 +71,8 @@ img {
 }
 
 .section {
-    padding: 4rem 2rem 5rem;
+    /* padding: 4rem 2rem 5rem; */
+    padding: 4rem 0rem 5rem;
 }
 
 /* .section {
@@ -416,6 +417,7 @@ img {
     background: #000 url('../images/stats-background.jpg') center center/cover
       no-repeat;
     color: #fff;
+    padding: 0rem 0rem 0rem;
   }  
   
   .stats-flex {
@@ -640,6 +642,11 @@ img {
     .hero h1{
         font-size: 3rem;
     }
+
+    .topics {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    
 }
 
 
