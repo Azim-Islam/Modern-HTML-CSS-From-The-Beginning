@@ -195,15 +195,14 @@ img {
 /* Team */
 .team {
   padding: 3rem 0 4rem;
+  img {
+    border-radius: 10px;
+  }
 }
 
 .team-flex {
   display: flex;
   gap: 1.4rem;
-}
-
-.team img {
-  border-radius: 10px;
 }
 
 /* Contact */
@@ -255,10 +254,9 @@ img {
 
   .hero {
     height: 300px;
-  }
-
-  .hero h2 {
-    font-size: 1.8rem;
+    h2 {
+      font-size: 1.8rem;
+    }
   }
 
   .gallery-item {
