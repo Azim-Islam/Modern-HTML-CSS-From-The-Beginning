@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="images/favicon.png" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
@@ -18,7 +19,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Leno App | Health & Productivity</title>
+    <title>Leno App</title>
   </head>
   <body>
     <nav class="navbar navbar--scroll">
@@ -29,27 +30,27 @@
         <div class="navbar__menu">
           <ul class="navbar__menu-list">
             <li class="navbar__menu-item">
-              <a href="#" class="navbar__menu-link">Home</a>
+              <a href="index.html" class="navbar__menu-link">Home</a>
             </li>
             <li class="navbar__menu-item">
-              <a href="#" class="navbar__menu-link">Features</a>
+              <a href="#features" class="navbar__menu-link">Features</a>
             </li>
             <li class="navbar__menu-item">
-              <a href="#" class="navbar__menu-link">Preview</a>
+              <a href="#preview" class="navbar__menu-link">Preview</a>
             </li>
             <li class="navbar__menu-item">
-              <a href="#" class="navbar__menu-link">Details</a>
+              <a href="details.html" class="navbar__menu-link">Details</a>
             </li>
             <li class="navbar__menu-item">
-              <a href="#" class="navbar__menu-link">Downloads</a>
+              <a href="#download" class="navbar__menu-link">Download</a>
             </li>
             <li class="navbar__menu-item">
-              <a href="#" class="navbar__menu-link--primary">
+              <a href="https://facebook.com" class="navbar__menu-link--primary">
                 <i class="fa-brands fa-facebook"></i>
               </a>
             </li>
             <li class="navbar__menu-item">
-              <a href="#" class="navbar__menu-link--primary">
+              <a href="https://x.com" class="navbar__menu-link--primary">
                 <i class="fa-brands fa-twitter"></i>
               </a>
             </li>
@@ -179,7 +180,7 @@
               <!-- Grid Item 1 -->
               <div class="features__grid-item">
                 <div class="features__grid-item-text">
-                  <h4 class="features__grid-item-text">Real Time Data</h4>
+                  <h4 class="features__grid-item-text-title">Real Time Data</h4>
                   <p class="features__grid-item-text-description">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, aspernatur.
                   </p>
@@ -193,13 +194,13 @@
             <!-- Grid Item 2 -->
             <div class="features__grid-item">
               <div class="features__grid-item-text">
-                <h4 class="features__grid-item-text">Visual Editor</h4>
+                <h4 class="features__grid-item-text-title">Visual Editor</h4>
                 <p class="features__grid-item-text-description">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, aspernatur.
                 </p>
             </div>
             <div>
-              <div class="features__grid-item-icon"><i class="fas fa-code fa-4x"></i>
+              <div class="features__grid-item-icon"><i class="fas fa-book fa-4x"></i>
               </div>
             </div>
 
@@ -208,7 +209,7 @@
             <!-- Grid Item 3 -->
             <div class="features__grid-item">
               <div class="features__grid-item-text">
-                <h4 class="features__grid-item-text">Refined Options</h4>
+                <h4 class="features__grid-item-text-title">Refined Options</h4>
                 <p class="features__grid-item-text-description">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, aspernatur.
                 </p>
@@ -230,7 +231,7 @@
               <!-- Grid Item 1 -->
               <div class="features__grid-item">
                 <div class="features__grid-item-text">
-                  <h4 class="features__grid-item-text">Calendar Input</h4>
+                  <h4 class="features__grid-item-text-title">Calendar Input</h4>
                   <p class="features__grid-item-text-description">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, aspernatur.
                   </p>
@@ -244,13 +245,13 @@
             <!-- Grid Item 2 -->
             <div class="features__grid-item">
               <div class="features__grid-item-text">
-                <h4 class="features__grid-item-text">Visual Editor</h4>
+                <h4 class="features__grid-item-text-title">Visual Editor</h4>
                 <p class="features__grid-item-text-description">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, aspernatur.
                 </p>
               </div>
               <div>
-                <div class="features__grid-item-icon"><i class="fas fa-code fa-4x"></i>
+                <div class="features__grid-item-icon"><i class="fas fa-book fa-4x"></i>
                 </div>
               </div>
           </div>
@@ -258,7 +259,7 @@
             <!-- Grid Item 3 -->
             <div class="features__grid-item">
               <div class="features__grid-item-text">
-                <h4 class="features__grid-item-text">Good Foundation</h4>
+                <h4 class="features__grid-item-text-title">Good Foundation</h4>
                 <p class="features__grid-item-text-description">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, aspernatur.
                 </p>
@@ -272,6 +273,225 @@
         </div>
       </div>
     </section>
+    
+    <!-- MODAL START -->
+    <div class="modal" id="videoModal">
+      <div class="modal__content">
+        <span class="modal__close-button">&times;</span>
+            <iframe
+              src=""
+              frameborder="0"
+              id="videoPlayer"
+              width="640"
+              height="480"
+              frameborder="0"
+              allowfullscreen>
+            </iframe>
+      </div>
+    </div>
+    <!-- MODAL END -->
+
+
+    <!-- PREVIEW START -->
+    <section class="preview" id="preview">
+      <div class="preview__container container">
+      <div class="preview__content">
+        <h2 class="preview__title"> Preview </h2>
+        <p class="preview__description">
+          Take a look into Leno's sleek and intuitive interface:
+        </p>
+        <div class="preview__image-container">
+          <div class="preview__video-wrapper">
+            <img src="images/video-frame.jpg" alt="preview"/>
+            <button class="preview__video-button">
+              <span class="preview__video-play-button">
+                <span></span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- PREVIEW END -->
+
+
+    <!-- DETAILS SECTION START -->
+    <section class="details" id="details">
+      <div class="details__container container">
+        <div class="details__grid">
+          <!-- Grid Item 1 -->
+          <div class="details__grid-image">
+            <img src="images/details-1.png" alt="Leno App" />
+          </div>
+          <!-- Grid Item 2 -->
+          <div class="details__grid-content">
+            <h3 class="details__grid-heading">
+              Start using Leno today and set your long term goals
+            </h3>
+            <p class="details__grid-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus provident tempore debitis qui neque error quae eos alias libero numquam, accusantium quasi nam optio, impedit quaerat? Illo eum beatae molestias.            
+            </p>
+            <a href="details.html" class="details__grid-button btn">More</a>
+          </div>
+          <!-- Grid Item 3 -->
+          <div class="details__grid-content">
+            <h3 class="details__grid-heading">
+              The calendar feature helps you schedule tasks
+            </h3>
+            <p class="details__grid-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus repudiandae et esse impedit consequuntur, fuga nobis, sequi laborum, quaerat eum quia eos magni fugiat dicta a assumenda      provident quis veritatis.
+            </p>
+            <a href="details.html" class="details__grid-button btn">More</a>
+          </div>
+          <!-- Grid Item 4 -->
+          <div class="details__grid-image">
+            <img src="images/details-2.png" alt="Leno App" />
+          </div>
+        </div>
+
+        <!-- Icons -->
+        <div class="details__icons">
+          <div class="details__icons-item">
+            <i class="fas fa-users fa-4x"></i>
+            <div class="details__icons-amount">35, 000</div>
+            <h4 class="details__icons-title">Happy Customers</h4>
+          </div>
+          <div class="details__icons-item">
+            <i class="fas fa-code fa-4x"></i>
+            <div class="details__icons-amount">125</div>
+            <h4 class="details__icons-title">Issues Solved</h4>
+          </div>
+          <div class="details__icons-item">
+            <i class="fas fa-comments fa-4x"></i>
+            <div class="details__icons-amount">321</div>
+            <h4 class="details__icons-title">Good Reviews</h4>
+          </div>
+          <div class="details__icons-item">
+            <i class="fas fa-rocket fa-4x"></i>
+            <div class="details__icons-amount">122</div>
+            <h4 class="details__icons-title">Case Studies</h4>
+          </div>
+          <div class="details__icons-item">
+            <i class="fas fa-edit fa-4x"></i>
+            <div class="details__icons-amount">355</div>
+            <h4 class="details__icons-title">Press article</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- DETAILS SECTION END -->
+
+    <!-- SCREENSHOT SECTION START -->
+    <section class="screenshots" id="screenshots">
+      <div class="screenshots__container container">
+        <div class="screenshots__content">
+          <h2 class="screenshots__title">Screenshots</h2>
+          <div class="screenshots__images">
+            <img src="images/screenshot-1.png" alt="Screenshot" />
+            <img src="images/screenshot-2.png" alt="Screenshot" />
+            <img src="images/screenshot-3.png" alt="Screenshot" />
+            <img src="images/screenshot-4.png" alt="Screenshot" />
+            <img src="images/screenshot-5.png" alt="Screenshot" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SCREENSHOT SECTION END -->
+
+
+    <!-- DOWNLOAD SECTION START -->
+    <section class="download" id="download">
+      <div class="download__container container">
+        <div class="download__content">
+          <p class="download__description">
+            Download Leno today to see the benefits and enjoy the results faster
+            than any other app out there</p>
+          <div class="download__buttons">
+            <a href="details.html" class="download__button btn">
+              <i class="fa-brands fa-apple"></i> For Apple
+            </a>
+            <a href="details.html" class="download__button btn">
+              <i class="fa-brands fa-android"></i> 
+              For Android
+            </a>
+          </div>
+        </div>
+        <div class="download__image">
+          <img src="images/download.png" alt="Download" />
+        </div>
+      </div>
+    </section>
+    <!-- DOWNLOAD SECTION END -->
+
+
+    <!-- FOOTER START -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__about">
+          <h4 class="footer__title">About Leno</h4>
+          <p class="footer__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis perspiciatis reprehenderit accusamus, dolorum accusantium voluptatum necessitatibus fuga vero? Id repellat fugiat, optio autem omnis nisi corrupti! Doloremque eligendi perferendis dolorum ex labore, excepturi fugit esse, molestiae magni soluta illum sit?
+          </p>
+        </div>
+
+        <div class="footer__links">
+          <h4 class="footer__title">Quick Links</h4>
+          <ul class="footer__links-list">
+            <li class="footer__links-item">
+              <a href="index.html" class="footer__links-link"> Home </a>
+            </li>
+
+            <li class="footer__links-item">
+              <a href="index.html#testimonials" class="footer__links-link">
+                Testimonials
+              </a>
+            </li>
+
+            <li class="footer__links-item">
+              <a href="index.html#features" class="footer__links-link">
+                Features
+              </a>
+            </li>
+
+
+            <li class="footer__links-item">
+              <a href="index.html#preview" class="footer__links-link">
+                Preview
+              </a>
+            </li>
+
+            <li class="footer__links-item">
+              <a href="index.html#details" class="footer__links-link">
+                Details
+              </a>
+            </li>
+
+            <li class="footer__links-item">
+              <a href="index.html#download" class="footer__links-link">
+                Download
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__social">
+          <a href="#" class="footer__social-link">
+            <i class="fa-brands fa-facebook fa-3x"></i></a>
+          <a href="#" class="footer__social-link">
+            <i class="fa-brands fa-twitter fa-3x"></i>
+          </a>
+          <a href="#" class="footer__social-link">
+            <i class="fa-brands fa-instagram fa-3x"></i></a>
+          <a href="#" class="footer__social-link">
+            <i class="fa-brands fa-linkedin fa-3x"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+    
+
+    
     <script src="js/script.js"></script>
   </body>
 </html>
