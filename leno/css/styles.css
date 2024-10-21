@@ -604,7 +604,7 @@ img {
 
 /* Inner Header */
 .inner-header {
-  background: #000 url('../images/header-backgroud.jpg') center center/cover
+  background: #000 url('../images/header-background.jpg') center center/cover
     no-repeat;
   padding: 10rem 2rem 6rem;
 }
