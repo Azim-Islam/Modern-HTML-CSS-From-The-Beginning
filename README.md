@@ -14,7 +14,7 @@ Welcome to the repository for [Udemy Bootstrap 5 Course]! This repository contai
 
 ## Project 1: BEM Website Leno 🚀
 
-![Project 1 Screenshot]()
+![Project 1 Screenshot](https://i.ibb.co.com/WxzLdVF/image9.png)
 
 - **Live URL:** [View Project 1 Live](https://udemy-html.azimdev.me/leno/index.html#)
 - **GitHub Repo:** [Project 1 Repository](https://github.com/Azim-Islam/Modern-HTML-CSS-From-The-Beginning/tree/main/leno)
@@ -23,7 +23,7 @@ Welcome to the repository for [Udemy Bootstrap 5 Course]! This repository contai
 
 ## Project 2: Tutor Website 🌟
 
-![Project 2 Screenshot](https://i.ibb.co.com/WxzLdVF/image9.png)
+![Project 2 Screenshot](https://i.ibb.co.com/ZTnRpt3/image2.png)
 
 - **Live URL:** [View Project 2 Live](https://udemy-html.azimdev.me/tutor/index.html#home)
 - **GitHub Repo:** [Project 2 Repository](https://github.com/Azim-Islam/Modern-HTML-CSS-From-The-Beginning/tree/main/tutor)
