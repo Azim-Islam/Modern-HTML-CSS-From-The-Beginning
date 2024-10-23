@@ -40,7 +40,7 @@ Welcome to the repository for [Udemy Bootstrap 5 Course]! This repository contai
 
 ## Project 4: Bono Landing Page💎
 
-![Project 4 Screenshot](https://i.ibb.co.com/sR0Q3tC/image6.png)
+![Project 4 Screenshot](https://i.ibb.co.com/kcxGHt8/image4.png)
 
 - **Live URL:** [View Project 4 Live](https://udemy-html.azimdev.me/bono-landing-form/index.html)
 - **GitHub Repo:** [Project 4 Repository](https://github.com/Azim-Islam/Modern-HTML-CSS-From-The-Beginning/tree/main/bono-landing-form)
