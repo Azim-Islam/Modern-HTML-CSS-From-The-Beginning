@@ -1,6 +1,6 @@
 # Modern HTML CSS From The Beginning Course 🎓
 
-Welcome to the repository for [Udemy Bootstrap 5 Course]! This repository contains multiple projects that demonstrate various concepts learned throughout the course.
+Welcome to the repository for [Udemy Bootstrap 5 Course]! This repository contains multiple projects that demonstrate various concepts learned throughout the course. 
 
 
 ## Table of Contents 📚
